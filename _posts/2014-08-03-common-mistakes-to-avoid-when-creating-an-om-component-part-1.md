@@ -10,7 +10,7 @@ categories:
 ---
 For the past few months I've been creating various Om components and most of the time it goes smoothly. But sometimes I do something silly, and it's not always obvious what it is. What's obvious is that the UI doesn't work and throws (sometimes cryptic) errors at me instead. Today I'm gathering what I remember into a tiny post. Maybe someone will find it helpful. And maybe I'll finally remember those mistakes after putting them down on <del>paper</del> interwebs. One can hope!  <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
 
-1. Form inside of another form
+1. <strong>Form inside of another form</strong>
 
     ```JavaScript
     Error: Invariant Violation: findComponentRoot(..., .2): Unable to find element. This probably means the DOM was unexpectedly mutated (e.g., by the browser), usually due to forgetting a <tbody> when using tables or nesting <p> or <a> tags. Try inspecting the child nodes of the element with React ID
@@ -18,7 +18,7 @@ For the past few months I've been creating various Om components and most of the
     
     Easy crime to commit if you're moving some html tags around and leave one behind. [GitHub issue](https://github.com/facebook/react/issues/1665).
       
-2. Reading application state during user input, e.g. onClick, onChange. etc.
+2. <strong>Reading application state during user input, e.g. onClick, onChange. etc.</strong>
 
     ```JavaScript
     Uncaught Error: Cannot manipulate cursor outside of render phase, only om.core/transact!, om.core/update!, and cljs.core/deref operations allowed.
@@ -26,7 +26,7 @@ For the past few months I've been creating various Om components and most of the
    
     You need to deref to read the value: `(:some-value @cursor)`
           
-3. Same error as above but coming from your `om/transact!`
+3. <strong>Same error as above but coming from your `om/transact!`</strong>
 
     Common mistake in the function that you pass to `om/transact!` is to do something like this:
     
@@ -39,7 +39,7 @@ For the past few months I've been creating various Om components and most of the
     ```clojure
     (fn [cursor] (conj cursor some-value))
     ```
-4. React.js < v. 0.11.0 Render method not returning a valid component
+4. <strong>React.js < v. 0.11.0 Render method not returning a valid component</strong>
 
     ```JavaScript
     Uncaught Error: Invariant Violation: ReactCompositeComponent.render(): A valid ReactComponent must be returned. 

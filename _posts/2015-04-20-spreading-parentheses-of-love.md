@@ -9,7 +9,7 @@ categories:
   - Clojure
   - Personal
 ---
-Last weekend, with the help of 14 teachers and TAs, we brought the first [ClojureBridge ][1]workshop to London. 20 students that showed up on a day had a wide range of experience levels from total beginners to experienced programmers in other languages.
+Last weekend, with the help of 14 teachers and TAs, we brought the first [ClojureBridge ](http://www.clojurebridge.org/events/2015-04-17-london) workshop to London. 20 students that showed up on a day had a wide range of experience levels from total beginners to experienced programmers in other languages.
 
 ### InstallFest
 
@@ -101,8 +101,8 @@ We asked all students to fill in a post-workshop survey, and so far the results 
 &#8211; We should consider to reduce the length of the workshop (it was 9-5 + dinner/drinks)  
 &#8211; Need to remember to order LESS food for the next workshop!
 
-#### A big thank you goes again to the fantastic sponsors who made this event happen:
-[uSwitch][6], [8Light][7], [Buyapowa][8], [Metosin][9], [Yeller][10], [ThoughtWorks][11], [LispCast][12] and [Tom Hall][4].  
+### A big thank you goes again to the fantastic sponsors who made this event happen:
+[uSwitch][6], [8Light][7], [Buyapowa][8], [Metosin][9], [Yeller][10], [ThoughtWorks][11], [LispCast][12] and [Tom Hall][4].
 And to the awesome volunteers!
 
 There is definitely going to be another one ClojureBridge London workshop, very likely organised by one of the recent alumni! <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />

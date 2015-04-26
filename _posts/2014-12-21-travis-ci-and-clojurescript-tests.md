@@ -23,15 +23,16 @@ I like open source projects, and I like Travis CI (which is free for open sourc
 
 1. Add `.travis.yml`
 
-<pre class="brush: bash; title: ; notranslate" title="">language: clojure
-   lein: lein2
-   script: lein2 cljsbuild test
-   </pre>
+    ```clojure
+    lein: lein2
+    script: lein2 cljsbuild test
+    ```
 
 2. Add test command to your `project.clj`
 
-<pre class="brush: clojure; title: ; notranslate" title="">:test-commands {"test" ["phantomjs" "phantom/unit-test.js" "phantom/unit-test.html"]}
-   </pre>
+    ```clojure
+    :test-commands {"test" ["phantomjs" "phantom/unit-test.js" "phantom/unit-test.html"]}
+    ```
 
 If you followed Andrew&#8217;s post you should have `phantom` directory in your project already, and `unit-test.js` and `unit-test.html` within it.
 

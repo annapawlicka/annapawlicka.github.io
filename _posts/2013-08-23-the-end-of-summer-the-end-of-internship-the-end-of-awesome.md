@@ -20,7 +20,6 @@ This has been a whirlwind of a summer, and I can’t believe it’s come to an e
   </p>
 </blockquote>
 
-&nbsp;
 
 With the recent rise of big data and open data I feel very lucky to have been in the middle of it. During my first week of the internship I was introduced to the CDEC Open Health Data Platform idea, given a bunch of files, some examples of maps and Cascalog queries, and off I went.
 

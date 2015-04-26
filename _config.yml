@@ -2,7 +2,6 @@ baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the r
 url: "annapawlicka.github.io" # the base hostname & protocol for your site.
 title: "annapawlicka"
 
-
 paginate: 3 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
@@ -41,3 +40,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+markdown: redcarpet
+# markdown: kramdown
