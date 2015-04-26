@@ -1,0 +1,13 @@
+# Site settings
+title: Anna Pawlicka
+email: pawlicka.anna@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Programmer. Hiker. Cook. Always looking for interesting problems to solve.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://annapawlicka.com" # the base hostname & protocol for your site
+twitter_username: AnnaPawlicka
+github_username:  annapawlicka
+
+# Build settings
+# markdown: kramdown
+markdown: redcarpet
