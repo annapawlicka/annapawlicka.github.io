@@ -1,13 +1,43 @@
-# Site settings
-title: Anna Pawlicka
-email: pawlicka.anna@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Programmer. Hiker. Cook. Always looking for interesting problems to solve.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://annapawlicka.com" # the base hostname & protocol for your site
-twitter_username: AnnaPawlicka
-github_username:  annapawlicka
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "annapawlicka.github.io" # the base hostname & protocol for your site.
+title: "annapawlicka"
 
-# Build settings
-# markdown: kramdown
-markdown: redcarpet
+
+paginate: 3 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+
+#contacts
+git: "https://github.com/annapawlicka"  #Add your github url here.
+stackoverflow: "http://stackoverflow.com/users/1972360/anna-pawlicka" #Add your stackoverflow url here.
+linkedin: "https://www.linkedin.com/in/annapawlicka"
+twitter: "https://twitter.com/AnnaPawlicka"  #Add your twitter url here.
+
+#google analytics
+google:
+    tracking-id: "UA-54047841-1" #paste your tracking id here
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

@@ -1,0 +1,27 @@
+<div id="title">
+  <h1> <a id="sitename" href="/">Anna Pawlicka</a></h1>
+  <h1>
+    {% unless site.git == "" %}
+		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+    {% endunless %}
+
+    {% unless site.stackoverflow == "" %}
+      <a id="tw-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+    {% endunless %}
+
+    {% unless site.stackoverflow == "" %}
+    <a id="li-ic" href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+    {% endunless %}
+
+
+  </h1>
+
+  <!-- Add something about you in p tag-->
+  <p>Programmer. Hiker. Cook. Always looking for interesting problems to solve.</p>
+  <hr/>
+  
+  {% include nav-links.html %} 
+	 
+</div>
+
+
