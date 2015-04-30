@@ -16,7 +16,7 @@ tags:
 ---
 My learning at university involved processing Twitter dataset using Hadoop cluster (as part of a very useful module called High Performance Computing). All done using pure Java. These are not good memories. Jobs failing, jobs queuing, cluster experiencing downtime, students panicking, staff complaining. Not to mention the need to write my own Mapper, Reducer, Combiner and a job configuration. And the job was really tiny! Oh, and the need to create a new jar and copy it to hdfs each time I changed the code. If only I could just write a simple query and run it the way SQL is run..
 
-One word:* Cascalog.*
+One word: Cascalog.
 
 <!--more-->
 
@@ -55,8 +55,6 @@ Pay attention to Step 3, where you learn how to set up a Clojure project. Your p
   :exclusions [org.apache.hadoop/hadoop-core
                org.clojure/clojure
                midje])</pre>
-
-&nbsp;
 
 **Emacs**
 
