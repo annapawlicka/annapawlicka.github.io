@@ -12,6 +12,8 @@ categories:
 ---
 A week ago I attended Women in Computing Hackathon. Theme was &#8220;Health & Fitness&#8221;. Our team, &#8220;Cheetahs&#8221;, was working on an app called &#8220;Fittah Cheetah&#8221;.
 
+<!--more-->
+
 In summary:  
 &#8211; Setting up our development environment took us ages! Embarrassing..  
 &#8211; Facebook engineers &#8211; über friendly people  

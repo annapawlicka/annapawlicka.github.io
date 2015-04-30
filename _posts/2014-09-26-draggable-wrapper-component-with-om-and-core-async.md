@@ -10,41 +10,44 @@ tags:
   - Om
   - React
 ---
+
 I've been looking for a way to enable dragging of Om components, something similar to what [Draggable](http://jqueryui.com/draggable/) does but much much simpler.
-I just want to drag component around the UI, no bells and whistles. I didn&#8217;t want to add this functionality to each component but just enable it as needed. Hence a wrapping component.
+I just want to drag component around the UI, no bells and whistles. I didn't want to add this functionality to each component but just enable it as needed. Hence a wrapping component.
+
+<!--more-->
 
 It's very simple: the wrapper has a core.async channel that event listeners are writing to:
 
-    ```clojure
-    (defn draggable [cursor owner {:keys [build-fn id]}]
-     (reify
-      om/IInitState
-      (init-state [_]
-        {:mouse-chan (chan (sliding-buffer 100))
-         :pressed false})
-      om/IWillMount
-      (will-mount [_]
-        (let [mouse-chan (om/get-state owner :mouse-chan)]
-          (go-loop []
-            (let [[evt-type e] (&lt;! mouse-chan)]
-              (handle-drag-event cursor owner evt-type e))
-            (recur))))
-      om/IDidMount
-      (did-mount [_]
-        (let [node       (by-id id)
-              mouse-chan (om/get-state owner :mouse-chan)]
-          (events/listen node "mousemove" #(put! mouse-chan [:move %]))
-          (events/listen node "mousedown" #(put! mouse-chan [:down %]))
-          (events/listen node "mouseup" #(put! mouse-chan [:up %]))))
-      om/IRenderState
-      (render-state [_ {:keys [mouse-chan]}]
-        (html
-         (let [{:keys [top left]} (:position cursor)]
-           [:div {:id id
-                  :style {:top (str (- top 40) "px") :left (str (- left 40) "px")
-                          :position "absolute" :z-index 100}}
-            build-fn])))))
-    ```
+```clojure
+(defn draggable [cursor owner {:keys [build-fn id]}]
+ (reify
+  om/IInitState
+  (init-state [_]
+    {:mouse-chan (chan (sliding-buffer 100))
+     :pressed false})
+  om/IWillMount
+  (will-mount [_]
+    (let [mouse-chan (om/get-state owner :mouse-chan)]
+      (go-loop []
+        (let [[evt-type e] (&lt;! mouse-chan)]
+          (handle-drag-event cursor owner evt-type e))
+        (recur))))
+  om/IDidMount
+  (did-mount [_]
+    (let [node       (by-id id)
+          mouse-chan (om/get-state owner :mouse-chan)]
+      (events/listen node "mousemove" #(put! mouse-chan [:move %]))
+      (events/listen node "mousedown" #(put! mouse-chan [:down %]))
+      (events/listen node "mouseup" #(put! mouse-chan [:up %]))))
+  om/IRenderState
+  (render-state [_ {:keys [mouse-chan]}]
+    (html
+     (let [{:keys [top left]} (:position cursor)]
+       [:div {:id id
+              :style {:top (str (- top 40) "px") :left (str (- left 40) "px")
+                      :position "absolute" :z-index 100}}
+        build-fn])))))
+```
 
 Channel and default mouse pressed value are initialised in `IInitState`. Channel has a sliding buffer &#8211; this way when someone drags too fast we don&#8217;t update app state unnecessarily but drop the events instead.
 In *IDidMount* we attach listeners to our component and `mousemove`, `mousedown` and `mouseup` events. The handler is simply putting a vector with the event type and the event object on the mouse-chan channel. Inside of *IWillMount* we have a go-loop that reads the messages and handles the events according to their type:
@@ -75,6 +78,6 @@ How does the draggable know what component to render? We pass the whole `(om/bui
 
 ```
 
-<a href="http://annapawlicka.github.io/om-data-vis/public/draggable-widget/index.html" target="_blank">Here&#8217;s</a> the working example. You&#8217;ve probably noticed that when you drag the component too fast, the cursor moves, but the component remains in the same place (buffer drops the events). It would be better to just take the last position of the cursor and move the component there. But I&#8217;ll let you figure this one out yourself <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
+[Here's](http://annapawlicka.github.io/om-data-vis/public/draggable-widget/index.html) the working example. You&#8217;ve probably noticed that when you drag the component too fast, the cursor moves, but the component remains in the same place (buffer drops the events). It would be better to just take the last position of the cursor and move the component there. But I&#8217;ll let you figure this one out yourself <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
 
 You can find the code in my <a href="https://github.com/annapawlicka/om-data-vis" target="_blank">GitHub repo</a>. Let me know if you find bugs, or better yet, submit at PR!

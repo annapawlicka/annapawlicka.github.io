@@ -18,6 +18,8 @@ tags:
 ---
 Everyone has their favourite editor/IDE &#8211; mine&#8217;s IntelliJ. Why?
 
+<!--more-->
+
   * **Debugging: Brilliant evaluation everywhere!**
   * **No saving files:** Seriously. You just don&#8217;t do it, they are autosaved.
   * **Shortcuts:** pure awesomeness. Also, if you happen to forget the shortcut of an action, just hit Command-Shift-A, and you’ll be prompted with an auto-complete search  box where you can search for actions and their shortcuts. Neat!

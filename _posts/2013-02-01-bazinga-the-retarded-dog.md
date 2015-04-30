@@ -21,6 +21,7 @@ tags:
 ---
 Since October last year I have been working on a robot simulation (Sony&#8217;s Aibo) trying to implement artificial curiosity and learning algorithms. Why? Final-year project. But also a very interesting and challenging problem to solve. I am working under supervision of Dr Chrisantha Fernando, at Queen Mary University of London.
 
+<!--more-->
 As of now, Bazinga is not the smartest dog out there:
 
 

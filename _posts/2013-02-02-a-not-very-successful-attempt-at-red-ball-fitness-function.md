@@ -19,6 +19,7 @@ tags:
 ---
 I decided to try a very simple genetic algorithm, with my own methods to copy and mutate individuals, and a very basic fitness function that, in theory, should try to minimize the distance between Bazinga and the red ball.
 
+<!--more-->
 Results:
 
 

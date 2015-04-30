@@ -20,6 +20,7 @@ tags:
   - Webots
 ---
 I&#8217;ve been looking more into motor actions and their effect on Servos.  The initial position is always zero. So each time a new action is applied to the motor (we\_servo\_set_position()), it is interpreted as absolute position. In order to emulate a relative position, I&#8217;ll have to store the last value passed to the method, and then just add that value to the newly computed one. Not sure if this will improve my algorithm as it seems that relative position will eventually result in maxing out the joint position.
+<!--more-->
 
 I&#8217;m back to **Q-Learning** algorithm. The design is as follows:  
 1. **Goal: Approach red ball.** The current distance from the ball minus the last distance reading determines the reward (greater decrease = greater reward). So if the current distance reading is 56 and the previous distance reading was 53, it receives a reward of +3.  

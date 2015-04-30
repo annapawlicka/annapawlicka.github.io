@@ -10,6 +10,8 @@ categories:
 ---
 This has been a whirlwind of a summer, and I can’t believe it’s come to an end.  Working at [Mastodon C][1] has been exactly what I wanted it to be: an awesome experience. I can honestly say I enjoyed every single day. Whether I was working my way out of JavaScript&#8217;s scoping labyrinths or learning the power of Cascalog, there was a sense of pride for me knowing that I had directly participated as a part of the team. With a very very rare coffee requests <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
 
+<!--more-->
+
 <blockquote class="twitter-tweet">
   <p>
     My internship just got real &#8211; <a href="https://twitter.com/otfrom">@otfrom</a> asked me to get coffees <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />

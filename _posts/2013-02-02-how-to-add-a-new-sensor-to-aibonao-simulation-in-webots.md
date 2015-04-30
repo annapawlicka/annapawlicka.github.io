@@ -17,7 +17,9 @@ tags:
   - sensor
   - Webots
 ---
-Most of the robot simulations can be modified by adding Nodes directly in Scene Tree in Webots itself. However, to add a new sensor to Aibo (and NAO), we need to modify proto file. Example path on OS X (can differ from system to system):  
+Most of the robot simulations can be modified by adding Nodes directly in Scene Tree in Webots itself. However, to add a new sensor to Aibo (and NAO), we need to modify proto file.
+<!--more-->
+Example path on OS X (can differ from system to system):
 /Applications/Webots/resources/projects/robots/aibo/protos/Aibo_ERS7.proto
 
 As an example, to add a distance sensor we need to paste this into the file:

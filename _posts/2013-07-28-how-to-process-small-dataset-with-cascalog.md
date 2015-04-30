@@ -18,6 +18,8 @@ My learning at university involved processing Twitter dataset using Hadoop clust
 
 One word:* Cascalog.*
 
+<!--more-->
+
 If the job does not take longer than 20 minutes to run locally, then you really don&#8217;t need a Hadoop cluster for that. With Cascalog you can write your job in a form of a query, and you can write Clojure functions to do, well, whatever you want with your data. Read below to find out how to set up your environment to work with Clojure Cascalog (there is a pure Java Cascalog too, [JCascalog][1], but NO.)
 
 **Hadoop installation**

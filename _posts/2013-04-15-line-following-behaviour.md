@@ -15,6 +15,8 @@ tags:
 ---
 I&#8217;ve been trying to perfect e-puck&#8217;s line following ability and I think I&#8217;ve succeeded:
 
+<!--more-->
+
 Behaviour was evolved using feedforward neural network and genetic algorithm.<em id="__mceDel"></em>
 
 **Summary of parameters:**  

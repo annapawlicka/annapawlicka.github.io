@@ -11,6 +11,8 @@ tags:
 ---
 It's been a while since the last post. More mistakes have been made, lessons have been learned, so here's a handful:
 
+<!--more-->
+
   1. <strong>Combining cursors</strong>
     
     Make sure you're updating the cursor and not the map that combines them.

@@ -12,6 +12,7 @@ tags:
 ---
 I'm currently reading Clojure in Action, and going through [4clojure][1] exercises. I have also set up a [github repo][2] for my solutions. Feel free to suggest better solutions!
 
+<!--more-->
 I'm getting used to the syntax (parentheses are not scary at all!). And I'm slowly (but surely?) changing the way I think of data structures and functions.
 
 I make mistakes. Some are embarrassing.  

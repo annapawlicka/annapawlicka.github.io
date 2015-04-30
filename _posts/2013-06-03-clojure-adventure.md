@@ -13,6 +13,8 @@ tags:
 ---
 I have been interviewing for a summer internship and my interviewers and I talked about Clojure. I am now intrigued by functional programming.
 
+<!--more-->
+
   * <span style="line-height: 1.6;">Parentheses? Not so scary considering they &#8220;replace&#8221; Java&#8217;s (the only language I currently know) curly brackets and multiple commas. Code is surprisingly easier to read.</span>
   * <span style="line-height: 1.6;">Immutable data? A chance to stop wasting time thinking of when and how object&#8217;s state is modified.</span>
   * Being based on JVM allows to use Java&#8217;s libraries

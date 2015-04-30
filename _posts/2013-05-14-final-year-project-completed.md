@@ -10,6 +10,8 @@ categories:
 ---
 It&#8217;s been a long road, but the project is finally completed: I submitted report and survived my viva <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
 
+<!--more-->
+
 To sum up:
 
   * <span style="line-height: 1.6;">Project was part of a study on cognitive architecture that could be implemented in a robot. The aim was to implement algorithms that are based on Darwinian Neurodynamics, to perform experiments and identify future improvements.</span>

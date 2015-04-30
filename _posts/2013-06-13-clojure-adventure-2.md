@@ -10,7 +10,11 @@ categories:
 tags:
   - clojure
 ---
-I&#8217;ve been looking into online tutorials, books, online courses and anything else that can help with learning Clojure. This is what I&#8217;ve settled for (for now):
+I&#8217;ve been looking into online tutorials, books, online courses and anything else that can help with learning Clojure.
+
+<!--more-->
+
+This is what I&#8217;ve settled for (for now):
 
   * <span style="line-height: 15px;"><a href="http://www.manning.com/rathore/">&#8220;Clojure in Action&#8221;</a> &#8211; hands-on tutorial for programmers with OOP background. It touches on unit testing, Hadoop and DSLs too.</span>
   * [&#8220;The Joy of Clojure&#8221;][1] &#8211; more of a deep dive into the language. It teaches how to write idiomatic Clojure (in a style that best uses the language&#8217;s features).

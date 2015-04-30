@@ -11,6 +11,8 @@ categories:
 ---
 Last weekend, with the help of 14 teachers and TAs, we brought the first [ClojureBridge ](http://www.clojurebridge.org/events/2015-04-17-london) workshop to London. 20 students that showed up on a day had a wide range of experience levels from total beginners to experienced programmers in other languages.
 
+<!--more-->
+
 ### InstallFest
 
 It happens on Friday and has a Friday night vibe. All participants must attend so it can be verified they have the appropriate Clojure development environment set up on their laptops for Saturday’s workshop. We had prepared memory sticks with LightTable and git for various operating systems (in case interwebs goes bonkers) and sent set-up instructions to attendees. When the Friday came, we were ready. OSX, Linux, Windows, it didn&#8217;t matter &#8211; no one left without having a working Clojure environment and a ClojureBridge sticker. When all laptops were ready we could socialise over pizza and drinks.

@@ -15,6 +15,8 @@ tags:
 ---
 A few thoughts about the evolution. <span style="line-height: 1.6;">In a population of 50 neural networks, how do I select which one will decide on next motor action?</span>
 
+<!--more-->
+
   * <em id="__mceDel"><span style="line-height: 1.6;">Initially, all individuals have fitness zeroed. </span></em>
   * <em id="__mceDel"><span style="line-height: 1.6;">Then each individual will be given a certain number of trials. </span></em>
   * <em id="__mceDel"><span style="line-height: 1.6;">After that its overall fitness will be calculated, and next individual will be tested. </span></em>

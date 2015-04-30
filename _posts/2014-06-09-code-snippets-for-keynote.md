@@ -13,6 +13,8 @@ categories:
 ---
 I've been looking for an easy way to format code snippets for my Keynote presentation and everything seemed quite awkward to use (especially taking screenshots!). I could just add a link to the example and make it open a local webpage, but I&#8217;d rather not do that for very short snippets. After some quick research I&#8217;ve settled with <a title="highlight" href="http://www.andre-simon.de/doku/highlight/en/highlight.html" target="_blank">highlight</a>.
 
+<!--more-->
+
 You can install it with `homebrew:`
 
 ```

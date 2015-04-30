@@ -12,6 +12,8 @@ tags:
 ---
 Thanks to good people at <a title="Cognitect" href="http://cognitect.com/" target="_blank">Cognitect</a> and the sponsors of the Opportunity Grant I had an opportunity to speak at <a href="http://clojure-conj.org/" target="_blank">Clojure/conj 2014</a>. It was the second time I've given a talk, and a fourth tech conference I attended. And it&#8217;s been amazing!
 
+<!--more-->
+
 The venue, Warner Theatre, is the most beautiful conference venue I&#8217;ve seen. Just look at this photo! It might have been a little cold, but nothing that hot coffee or tea wouldn't fix.
 
 <img style="float: center;" src="http://lnnewyork.blob.core.windows.net/images/warner_venueimage4.jpg" alt="Warner Theatre chandelier" />

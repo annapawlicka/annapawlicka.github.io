@@ -10,6 +10,8 @@ categories:
 ---
 For the past few months I've been creating various Om components and most of the time it goes smoothly. But sometimes I do something silly, and it's not always obvious what it is. What's obvious is that the UI doesn't work and throws (sometimes cryptic) errors at me instead. Today I'm gathering what I remember into a tiny post. Maybe someone will find it helpful. And maybe I'll finally remember those mistakes after putting them down on <del>paper</del> interwebs. One can hope!  <img src="http://annapawlicka.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
 
+<!--more-->
+
 1. <strong>Form inside of another form</strong>
 
     ```JavaScript
