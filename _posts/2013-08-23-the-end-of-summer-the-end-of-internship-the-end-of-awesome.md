@@ -29,7 +29,7 @@ It took me a couple of hours to work through Paul Lam&#8217;s [&#8220;Cascalog f
 
 I have been a frequent user of online maps, but I have not created any maps myself. This was about to change. I was going to take the data processed with Cascalog  and visualise it on interactive maps and charts. Brilliant JavaScript libraries made this process much easier: [leaflet][4] and [dimple][5]. And although my JavaScript was rusty, it all soon started to come together. The (still ongoing) results can be seen on the [alpha site][6]. The [feedback][7] it received on the day of the launch was the best reward I could imagine.
 
-Since then I have crated more maps, more charts and more queries. And during that time I have always been myself: I came to code, Mastodon C allowed me to do just that. It has been like working in this unreal world where I wake up in the morning wanting to go to work, and where every day helps me to live my life in a more rewarding way. Being able to use my skills to help someone and see their positive reaction &#8211; priceless.
+Since then I have created more maps, more charts and more queries. And during that time I have always been myself: I came to code, Mastodon C allowed me to do just that. It has been like working in this unreal world where I wake up in the morning wanting to go to work, and where every day helps me to live my life in a more rewarding way. Being able to use my skills to help someone and see their positive reaction &#8211; priceless.
 
 Thank you to all Mastodonians for guiding the way for me throughout the entire summer.
 
