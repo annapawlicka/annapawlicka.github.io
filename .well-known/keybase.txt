@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/annapawlicka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://annapawlicka.com
+  * I am annapawlicka (https://keybase.io/annapawlicka) on keybase.
+  * I have a public key ASApxsqeLRdvUFpKwiM_vBJnA6s_9FKdM96TL0IH45wl8go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015333bd281f83fa38db16c9d41d17b36925532c96d21370304b8ad6f50ba037c50a",
+            "host": "keybase.io",
+            "kid": "012029c6ca9e2d176f505a4ac2233fbc126703ab3ff4529d33de932f4207e39c25f20a",
+            "uid": "eb72b781def60cfbf0c20c76fc3df800",
+            "username": "annapawlicka"
+        },
+        "service": {
+            "hostname": "annapawlicka.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486589026,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486589012,
+        "hash": "0e7e8e4eccc01b12edf0cc343ce5d462cfdf605edb7c7f7067908f77325cc2151a318c5c4f9c080ad50f92825b1239d96e237a94b60d7861e2536a2caa3abf24",
+        "seqno": 846679
+    },
+    "prev": "a1ca0382aa7afea9e8818acdbc326b56a871c716ebeb71013d92290536549ed3",
+    "seqno": 91,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKcbKni0Xb1BaSsIjP7wSZwOrP/RSnTPeky9CB+OcJfIKp3BheWxvYWTFAvx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNTMzM2JkMjgxZjgzZmEzOGRiMTZjOWQ0MWQxN2IzNjkyNTUzMmM5NmQyMTM3MDMwNGI4YWQ2ZjUwYmEwMzdjNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjljNmNhOWUyZDE3NmY1MDVhNGFjMjIzM2ZiYzEyNjcwM2FiM2ZmNDUyOWQzM2RlOTMyZjQyMDdlMzljMjVmMjBhIiwidWlkIjoiZWI3MmI3ODFkZWY2MGNmYmYwYzIwYzc2ZmMzZGY4MDAiLCJ1c2VybmFtZSI6ImFubmFwYXdsaWNrYSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYW5uYXBhd2xpY2thLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODY1ODkwMjYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NjU4OTAxMiwiaGFzaCI6IjBlN2U4ZTRlY2NjMDFiMTJlZGYwY2MzNDNjZTVkNDYyY2ZkZjYwNWVkYjdjN2Y3MDY3OTA4Zjc3MzI1Y2MyMTUxYTMxOGM1YzRmOWMwODBhZDUwZjkyODI1YjEyMzlkOTZlMjM3YTk0YjYwZDc4NjFlMjUzNmEyY2FhM2FiZjI0Iiwic2Vxbm8iOjg0NjY3OX0sInByZXYiOiJhMWNhMDM4MmFhN2FmZWE5ZTg4MThhY2RiYzMyNmI1NmE4NzFjNzE2ZWJlYjcxMDEzZDkyMjkwNTM2NTQ5ZWQzIiwic2Vxbm8iOjkxLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQIC1GD38pzFDWJQ3WvVMycLGuXS9Wb7RVLgXN7ZsXATgqZCu28SV2H4Xoji7t8HeIbhWMkwdrOfMZJXB9ZpwJASoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDVVdR32n2NuKXAeUvrtTYfV1SKrtQEBtZTlhUFie8b0KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/annapawlicka
+
+==================================================================

@@ -26,6 +26,7 @@ exclude:
   - "CHANGELOG.md"
   - "Gemfile"
   - "Gemfile.lock"
+include: [".well-known"]
 permalink: :title
 defaults:
   -
@@ -41,7 +42,10 @@ defaults:
     values:
       layout: "post"
 
-markdown: redcarpet
+markdown: kramdown
 # markdown: kramdown
 
 excerpt_separator: <!--more-->
+
+# Gems
+gems: [jekyll-paginate]
